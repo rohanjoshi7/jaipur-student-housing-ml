@@ -1,5 +1,9 @@
 # Geolocational Analysis & Student Housing Recommendation in Jaipur using K-Means Clustering
 
+[![Live Map Demo](https://img.shields.io/badge/Interactive_Map-Live_Demo-brightgreen?style=for-the-badge&logo=googlemaps)](https://rohanjoshi7.github.io/jaipur-student-housing-ml/assets/jaipur_housing_map.html)
+
+# Geolocational Analysis & Student Housing Recommendation in Jaipur using K-Means Clustering
+
 ## Project Overview & Objectives
 Finding the right accommodation is one of the biggest challenges for university students. This project aims to simplify that process for students in Jaipur—particularly those studying near major educational hubs like MNIT on JLN Marg or Malviya Nagar. 
 
