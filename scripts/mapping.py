@@ -1,12 +1,3 @@
-"""
-================================================================================
-STEP 5 : INTERACTIVE FOLIUM MAP
-================================================================================
-Plots all clustered accommodations on an interactive map of Jaipur, color-coded
-by cluster, with popups showing rent, distance, and amenities. Clusters can be
-toggled on/off individually via the layer control in the top-right corner.
-"""
-
 import pandas as pd
 import folium
 
