@@ -10,7 +10,7 @@ toggled on/off individually via the layer control in the top-right corner.
 import pandas as pd
 import folium
 
-df = pd.read_csv("jaipur_student_housing_clustered.csv")
+df = pd.read_csv("data/jaipur_student_housing_clustered.csv")
 print(f"Loaded {len(df)} accommodations to map.")
 
 AMENITY_COLUMNS = ["wifi", "ac", "food_mess", "laundry"]
