@@ -37,7 +37,7 @@ label_map = df.drop_duplicates("cluster").set_index("cluster")["cluster_label"].
 # 5.2  BUILD THE BASE MAP, CENTERED ON JAIPUR
 # --------------------------------------------------------------------------
 map_center = [df["latitude"].mean(), df["longitude"].mean()]
-housing_map = folium.Map(location=map_center, zoom_start=12, tiles="CartoDB positron")
+housing_map = folium.Map(location=map_center, zoom_start=12, tiles="OpenStreetMap")
 
 # --------------------------------------------------------------------------
 # 5.3  MARK THE KEY HUBS THEMSELVES (distinct from housing markers)
