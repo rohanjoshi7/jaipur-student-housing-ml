@@ -1,17 +1,3 @@
-"""
-================================================================================
-STEP 6 : STATIC REPORT VISUALIZATIONS (Matplotlib/Seaborn)
-================================================================================
-Produces publication-quality static PNGs for a project report / GitHub
-README, where the interactive Folium map can't be embedded:
-  1. rent_vs_distance_by_cluster.png
-  2. vfm_vs_rent_by_cluster.png
-  3. cluster_scatter_combined.png   (both, side-by-side, one shared legend)
-
-Colors are matched to the same palette used in mapping.py, so the static
-plots and the interactive map tell a visually consistent story.
-"""
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.lines as mlines
@@ -23,10 +9,6 @@ plt.rcParams["figure.dpi"] = 100  # on-screen preview; we save at higher dpi bel
 df = pd.read_csv("jaipur_student_housing_clustered.csv")
 print(f"Loaded {len(df)} clustered accommodations for plotting.")
 
-# --------------------------------------------------------------------------
-# 6.1  COLOR PALETTE — kept identical to mapping.py for visual consistency
-#      between the static report plots and the interactive Folium map.
-# --------------------------------------------------------------------------
 CLUSTER_COLORS = ["#e6194B", "#3cb44b", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#bfef45"]
 cluster_ids = sorted(df["cluster"].unique())
 color_by_id = {cid: CLUSTER_COLORS[i % len(CLUSTER_COLORS)] for i, cid in enumerate(cluster_ids)}
@@ -48,10 +30,6 @@ def plot_centroids(ax, x_col, y_col):
             edgecolor="black", linewidth=1.5, zorder=5,
         )
 
-
-# --------------------------------------------------------------------------
-# 6.2  PLOT 1 — RENT vs. DISTANCE TO NEAREST HUB
-# --------------------------------------------------------------------------
 fig1, ax1 = plt.subplots(figsize=(8, 6))
 sns.scatterplot(
     data=df, x="distance_to_nearest_hub_km", y="monthly_rent_numeric",
@@ -68,14 +46,6 @@ plt.savefig("rent_vs_distance_by_cluster.png", dpi=200, bbox_inches="tight")
 print("Saved rent_vs_distance_by_cluster.png")
 plt.close(fig1)
 
-# --------------------------------------------------------------------------
-# 6.3  PLOT 2 — VFM INDEX vs. RENT
-# --------------------------------------------------------------------------
-# VFM is right-skewed with a hard floor at 0 (listings with zero amenities
-# score exactly 0 regardless of rent) and a long tail up to ~40 (very cheap,
-# well-equipped listings). A plain linear axis squashes most points into
-# the bottom of the chart; a plain log axis can't handle the zeros at all.
-# 'symlog' solves both: linear near zero, logarithmic beyond a threshold.
 fig2, ax2 = plt.subplots(figsize=(8, 6))
 sns.scatterplot(
     data=df, x="monthly_rent_numeric", y="vfm_index",
@@ -93,9 +63,6 @@ plt.savefig("vfm_vs_rent_by_cluster.png", dpi=200, bbox_inches="tight")
 print("Saved vfm_vs_rent_by_cluster.png")
 plt.close(fig2)
 
-# --------------------------------------------------------------------------
-# 6.4  COMBINED SIDE-BY-SIDE FIGURE (one shared legend, for the report)
-# --------------------------------------------------------------------------
 fig3, (axA, axB) = plt.subplots(1, 2, figsize=(15, 6))
 
 sns.scatterplot(
