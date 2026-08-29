@@ -1,16 +1,3 @@
-"""
-================================================================================
-STEP 3 : CHOOSING K, TRAINING K-MEANS, AND INTERPRETING CLUSTERS
-================================================================================
-Loads the processed dataset from Phase 1 and:
-  1. Runs the Elbow Method + Silhouette Analysis side-by-side to justify K.
-  2. Trains the final K-Means model.
-  3. Builds a cluster profile summary table (avg rent / distance / amenities
-     / VFM per cluster) so the clusters can actually be interpreted.
-  4. Bonus: auto-generates a student-friendly name for each cluster based on
-     its relative characteristics, instead of hardcoding labels by hand.
-"""
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
