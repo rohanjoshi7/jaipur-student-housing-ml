@@ -40,7 +40,7 @@ The project includes visual profiles to analyze how the market segments across d
 ### Interactive Geospatial Map
 An interactive Folium map (`Jaipur housing map.html`) is included in the `/assets` directory. It plots all evaluated accommodations across Jaipur, color-coded by their designated cluster, featuring interactive popups detailing rent, distance, and top amenities.
 
-## How to Run
+## How To Run
 
 **1. Clone the repository:**
 ```bash
