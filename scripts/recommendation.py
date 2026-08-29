@@ -1,28 +1,8 @@
-"""
-================================================================================
-STEP 4 : INTERACTIVE RECOMMENDATION ENGINE
-================================================================================
-Takes the clustered dataset from Phase 2 and lets a student search for
-accommodations against hard constraints (budget, distance, amenities),
-then ranks the matches by our VFM index and reports which cluster(s) the
-matches belong to.
-
-DESIGN NOTE: The core logic lives in `recommend_housing()`, a plain function
-that takes parameters directly — no input() calls inside it. A separate
-thin wrapper, `interactive_search()`, handles the actual user prompts and
-calls into the core function. This separation (logic vs. I/O) is standard
-good practice: it means `recommend_housing()` can be tested and reused
-without a human sitting at a keyboard, and is worth mentioning in a viva.
-"""
-
 import pandas as pd
 
 pd.set_option("display.width", 120)
 pd.set_option("display.max_colwidth", 22)
 
-# --------------------------------------------------------------------------
-# 4.1  LOAD CLUSTERED DATA
-# --------------------------------------------------------------------------
 df = pd.read_csv("jaipur_student_housing_clustered.csv")
 print(f"Loaded {len(df)} clustered accommodations.\n")
 
@@ -42,10 +22,6 @@ def amenities_string(row):
     present = [AMENITY_DISPLAY_NAMES[c] for c in AMENITY_COLUMNS if row[c] == 1]
     return ", ".join(present) if present else "None"
 
-
-# --------------------------------------------------------------------------
-# 4.2  FALLBACK: SUGGEST THE CLOSEST CLUSTER WHEN NOTHING MATCHES EXACTLY
-# --------------------------------------------------------------------------
 def find_closest_cluster(data, max_budget, max_distance_km, desired_amenity_count):
     """
     When hard filtering returns zero results, don't just say "no matches" —
@@ -75,10 +51,6 @@ def find_closest_cluster(data, max_budget, max_distance_km, desired_amenity_coun
     profile["total_gap"] = profile[["rent_gap_norm", "distance_gap_norm", "amenity_gap_norm"]].sum(axis=1)
     return profile.sort_values("total_gap").iloc[0]
 
-
-# --------------------------------------------------------------------------
-# 4.3  CORE RECOMMENDATION FUNCTION
-# --------------------------------------------------------------------------
 def recommend_housing(
     data,
     max_budget,
@@ -120,7 +92,6 @@ def recommend_housing(
     if accommodation_type:
         filtered = filtered[filtered["accommodation_type"].str.lower() == accommodation_type.lower()]
 
-    # ---- No exact matches: fall back to the closest cluster ----
     if filtered.empty:
         print("No accommodations satisfy every constraint exactly.")
         best_cluster = find_closest_cluster(data, max_budget, max_distance_km, len(required_amenities))
@@ -137,7 +108,6 @@ def recommend_housing(
         )
         return fallback_results, None
 
-    # ---- Matches found: report which cluster(s) they belong to ----
     cluster_breakdown = filtered["cluster_label"].value_counts()
     print(f"Found {len(filtered)} accommodations matching your constraints.")
     print("Matches by cluster:")
@@ -164,10 +134,6 @@ def display_results(results):
     ]
     print(view[cols].to_string(index=False))
 
-
-# --------------------------------------------------------------------------
-# 4.4  INTERACTIVE CLI WRAPPER
-# --------------------------------------------------------------------------
 def interactive_search(data):
     """Prompt the user for their preferences via the console and run the search."""
     print("=" * 70)
@@ -210,8 +176,5 @@ def interactive_search(data):
     return results
 
 
-# --------------------------------------------------------------------------
-# 4.5  RUN INTERACTIVELY WHEN EXECUTED DIRECTLY
-# --------------------------------------------------------------------------
 if __name__ == "__main__":
     interactive_search(df)
