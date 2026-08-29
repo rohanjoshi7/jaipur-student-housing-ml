@@ -1,28 +1,17 @@
 import numpy as np
 import pandas as pd
 
-# Reproducibility: always seed your RNG so results are identical on re-run.
-# Whoever grades this (or you, six months from now) should get your exact numbers.
 np.random.seed(42)
 
 N_ACCOMMODATIONS = 500
 
-# --------------------------------------------------------------------------
-# 1.1  KEY STUDENT / TECH HUBS IN JAIPUR
-# --------------------------------------------------------------------------
-# These act as "anchor points" — the places students actually care about
-# being close to. Coordinates are approximate (fine for a mock/demo dataset,
-# not survey-grade GPS).
 HUBS = {
     "MNIT Jaipur (JLN Marg)":       (26.8422, 75.8130),
-    "Jagatpura Education Belt":     (26.8158, 75.8494),  # JECRC, Poornima, Arya College etc.
-    "Vaishali Nagar Tech Corridor": (26.9123, 75.7368),  # World Trade Park + IT/commercial offices
+    "Jagatpura Education Belt":     (26.8158, 75.8494),  
+    "Vaishali Nagar Tech Corridor": (26.9123, 75.7368),  
 }
 HUB_NAMES = list(HUBS.keys())
 
-# Rough bounding box of Jaipur city, used for the small fraction of listings
-# scattered generally around town rather than tightly around one hub —
-# every city has plenty of housing that isn't hub-adjacent at all.
 JAIPUR_LAT_RANGE = (26.75, 26.97)
 JAIPUR_LON_RANGE = (75.68, 75.90)
 
@@ -41,20 +30,10 @@ def offset_point(hub_lat, hub_lon, distance_km, bearing_deg):
     d_lon = (distance_km * np.sin(bearing_rad)) / km_per_deg_lon
     return hub_lat + d_lat, hub_lon + d_lon
 
-
-# --------------------------------------------------------------------------
-# 1.2  GENERATE LOCATIONS
-# --------------------------------------------------------------------------
-# 85% of listings cluster (with realistic decay — lots close by, fewer far
-# away) around one of the three hubs. 15% are scattered generally around
-# the city, representing ordinary housing with no hub in particular nearby.
 near_hub_mask = np.random.rand(N_ACCOMMODATIONS) < 0.85
 assigned_hub = np.random.choice(HUB_NAMES, size=N_ACCOMMODATIONS)
 
 latitudes, longitudes = [], []
-# We also track the TRUE distance-to-assigned-hub internally (not saved to
-# the CSV) purely to make rent/amenities correlate realistically with
-# location, mimicking real housing markets where "closer = pricier".
 true_hub_distance_km = []
 
 for i in range(N_ACCOMMODATIONS):
@@ -81,25 +60,17 @@ for i in range(N_ACCOMMODATIONS):
 
 true_hub_distance_km = np.array(true_hub_distance_km)
 
-# --------------------------------------------------------------------------
-# 1.3  QUALITY TIER (hidden variable driving rent + amenities together)
-# --------------------------------------------------------------------------
-# Real housing markets aren't random noise — pricier places tend to have
-# more amenities. We simulate that correlation via a hidden "tier".
 quality_tier = np.random.choice(
     ["budget", "mid", "premium"], size=N_ACCOMMODATIONS, p=[0.40, 0.40, 0.20]
 )
 tier_rent_range = {"budget": (4000, 7500), "mid": (7500, 11500), "premium": (11500, 19000)}
 tier_amenity_prob = {"budget": 0.25, "mid": 0.55, "premium": 0.85}
 
-# --------------------------------------------------------------------------
-# 1.4  MONTHLY RENT (base tier + proximity premium + noise), formatted MESSILY
-# --------------------------------------------------------------------------
+# Monthly Rent
 raw_rent = np.zeros(N_ACCOMMODATIONS)
 for i in range(N_ACCOMMODATIONS):
     low, high = tier_rent_range[quality_tier[i]]
     base = np.random.uniform(low, high)
-    # Being close to a hub commands a premium (real-world effect), capped sensibly.
     proximity_premium = max(0, (6 - true_hub_distance_km[i])) * np.random.uniform(60, 160)
     noise = np.random.normal(0, 300)
     raw_rent[i] = max(2500, base + proximity_premium + noise)
@@ -128,9 +99,6 @@ def messify_rent(amount):
 
 monthly_rent_str = [messify_rent(r) for r in raw_rent]
 
-# --------------------------------------------------------------------------
-# 1.5  AMENITY FLAGS (correlated with quality tier, each amenity independent)
-# --------------------------------------------------------------------------
 def amenity_flags(tier):
     p = tier_amenity_prob[tier]
     return {
@@ -143,9 +111,7 @@ def amenity_flags(tier):
 
 amenities = [amenity_flags(t) for t in quality_tier]
 
-# --------------------------------------------------------------------------
-# 1.6  NAMES, ACCOMMODATION TYPE, GENDER PREFERENCE (realistic flavour text)
-# --------------------------------------------------------------------------
+
 adjectives = [
     "Sunrise", "Comfort", "Elite", "Cozy", "Royal", "Zenith", "Silver Oak",
     "Green Valley", "Golden Nest", "Blue Orchid", "Maple", "Crimson", "Prime",
@@ -164,9 +130,7 @@ names = [
 acc_types = np.random.choice(accommodation_types, size=N_ACCOMMODATIONS, p=[0.5, 0.35, 0.15])
 gender_pref = np.random.choice(genders, size=N_ACCOMMODATIONS, p=[0.4, 0.35, 0.25])
 
-# --------------------------------------------------------------------------
-# 1.7  ASSEMBLE DATAFRAME
-# --------------------------------------------------------------------------
+# Dataframe assembling
 df = pd.DataFrame({
     "accommodation_id": [f"JPR{str(i+1).zfill(4)}" for i in range(N_ACCOMMODATIONS)],
     "name": names,
@@ -181,21 +145,14 @@ df = pd.DataFrame({
     "laundry": [a["laundry"] for a in amenities],
 })
 
-# --------------------------------------------------------------------------
-# 1.8  INJECT REAL-WORLD MESSINESS: missing values
-# --------------------------------------------------------------------------
-# ~3% missing rent (listing didn't specify price / "contact owner")
+
 missing_rent_idx = np.random.choice(df.index, size=int(0.03 * N_ACCOMMODATIONS), replace=False)
 df.loc[missing_rent_idx, "monthly_rent"] = np.nan
 
-# ~2% missing values scattered across amenity columns (incomplete listings)
 for col in ["wifi", "ac", "food_mess", "laundry"]:
     missing_idx = np.random.choice(df.index, size=int(0.02 * N_ACCOMMODATIONS), replace=False)
     df.loc[missing_idx, col] = np.nan
 
-# --------------------------------------------------------------------------
-# 1.9  SAVE
-# --------------------------------------------------------------------------
 output_path = "jaipur_student_housing_raw.csv"
 df.to_csv(output_path, index=False)
 
