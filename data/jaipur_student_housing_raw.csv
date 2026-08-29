@@ -1,0 +1,501 @@
+accommodation_id,name,accommodation_type,gender_preference,latitude,longitude,monthly_rent,wifi,ac,food_mess,laundry
+JPR0001,Prime Nest,PG,Co-ed,26.826596,75.853734,9800 per month,1.0,0.0,1.0,0.0
+JPR0002,Copper Leaf Manor,Hostel,Girls,26.823743,75.856628,"₹10,900/month",1.0,1.0,0.0,1.0
+JPR0003,Urban Villa,PG,Boys,26.842148,75.813101,INR 6000/month,1.0,0.0,0.0,0.0
+JPR0004,Green Valley Retreat,PG,Boys,26.831078,75.810016,INR 6600/month,1.0,1.0,1.0,1.0
+JPR0005,Golden Nest Nest,PG,Girls,26.809852,75.865388,"₹5,100/month",0.0,0.0,0.0,0.0
+JPR0006,Golden Nest Heights,Hostel,Co-ed,26.841447,75.802277,Rs. 9800,1.0,0.0,1.0,1.0
+JPR0007,Maple Palace,Hostel,Co-ed,26.844354,75.828,"₹8,200/month",1.0,1.0,1.0,0.0
+JPR0008,Blue Orchid Manor,PG,Girls,26.849537,75.710989,10100 per month,1.0,0.0,1.0,1.0
+JPR0009,Sunshine Nest,PG,Boys,26.83783,75.81305,"₹9,700/month",0.0,1.0,1.0,1.0
+JPR0010,Maple Villa,Independent Flat,Girls,26.826318,75.842415,"₹7,900/month",0.0,1.0,0.0,0.0
+JPR0011,Cozy Address,PG,Girls,26.903436,75.731287,Rs. 13200,1.0,1.0,1.0,1.0
+JPR0012,Serene Address,Independent Flat,Co-ed,26.889098,75.682881,7800 per month,1.0,0.0,1.0,1.0
+JPR0013,Green Valley Nest,PG,Boys,26.826519,75.874127,6600,0.0,0.0,0.0,0.0
+JPR0014,Cozy House,Hostel,Girls,26.859267,75.915266,11700,1.0,0.0,0.0,1.0
+JPR0015,Crimson Court,PG,Girls,26.922668,75.743711,INR 10400/month,1.0,0.0,1.0,1.0
+JPR0016,Elite House,Independent Flat,Co-ed,26.716086,75.811051,"₹11,300/month",1.0,0.0,0.0,1.0
+JPR0017,Copper Leaf Stay,Hostel,Co-ed,26.930896,75.746149,INR 9400/month,1.0,1.0,0.0,0.0
+JPR0018,Maple Address,PG,Co-ed,26.849982,75.846885,Rs. 17400,1.0,,1.0,1.0
+JPR0019,Cozy Enclave,PG,Girls,26.830104,75.904749,10200,1.0,0.0,1.0,1.0
+JPR0020,Highland Address,Hostel,Boys,26.82044,75.850615,"₹6,400/month",0.0,0.0,0.0,0.0
+JPR0021,Maple Court,Hostel,Co-ed,26.802591,75.843012,Rs. 6400,0.0,1.0,1.0,0.0
+JPR0022,Sunrise Retreat,PG,Girls,26.816044,75.847707,Rs. 13800,1.0,1.0,0.0,1.0
+JPR0023,Silver Oak Palace,PG,Boys,26.89886,75.734472,"₹4,900/month",1.0,0.0,1.0,1.0
+JPR0024,Silver Oak Point,Hostel,Boys,26.831573,75.821566,Rs. 4500,1.0,0.0,0.0,0.0
+JPR0025,Silver Oak Retreat,PG,Co-ed,26.85256,75.83014,"₹10,400/month",1.0,1.0,0.0,1.0
+JPR0026,Highland Retreat,Hostel,Boys,26.915222,75.732929,"₹9,200/month",0.0,0.0,0.0,1.0
+JPR0027,Green Valley Manor,PG,Girls,26.796179,75.865686,10500 per month,1.0,1.0,1.0,0.0
+JPR0028,Golden Nest Residency,Independent Flat,Girls,26.811406,75.843135,INR 13000/month,1.0,1.0,1.0,1.0
+JPR0029,Prime House,Independent Flat,Boys,26.853885,75.815107,Rs. 4600,0.0,0.0,0.0,0.0
+JPR0030,Cozy Manor,Independent Flat,Boys,26.814989,75.845213,Rs. 4600,0.0,0.0,0.0,0.0
+JPR0031,Crimson Nest,PG,Co-ed,26.936176,75.741403,5100 per month,0.0,0.0,0.0,0.0
+JPR0032,Comfort House,Independent Flat,Co-ed,26.842871,75.819291,18500 per month,1.0,1.0,1.0,0.0
+JPR0033,Amber Palace,PG,Boys,26.937207,75.740277,11700 per month,1.0,0.0,1.0,0.0
+JPR0034,Urban Court,Hostel,Co-ed,26.772904,75.855982,7400,1.0,1.0,0.0,0.0
+JPR0035,Urban Nest,Hostel,Co-ed,26.78928,75.823604,13500,1.0,1.0,1.0,1.0
+JPR0036,Copper Leaf Retreat,PG,Girls,26.91727,75.740819,14200,1.0,1.0,1.0,0.0
+JPR0037,Crimson Homes,Independent Flat,Girls,26.841112,75.806074,"₹13,700/month",0.0,1.0,1.0,1.0
+JPR0038,Golden Nest Address,PG,Co-ed,26.836857,75.806622,Rs. 17900,1.0,1.0,1.0,1.0
+JPR0039,Green Valley Villa,Hostel,Girls,26.906688,75.725672,INR 5100/month,1.0,0.0,0.0,0.0
+JPR0040,Prime Address,Hostel,Boys,26.910916,75.742382,"₹11,700/month",0.0,1.0,1.0,0.0
+JPR0041,Prime Homes,Hostel,Co-ed,26.893079,75.817669,Rs. 8900,1.0,1.0,1.0,1.0
+JPR0042,Highland Retreat,PG,Girls,26.842727,75.815178,Rs. 16500,1.0,1.0,1.0,1.0
+JPR0043,Maple Stay,PG,Boys,26.842453,75.813617,10100 per month,0.0,1.0,0.0,1.0
+JPR0044,Royal House,Hostel,Girls,26.878269,75.772713,10100 per month,1.0,0.0,1.0,1.0
+JPR0045,Maple Manor,PG,Girls,26.862869,75.761646,"₹8,300/month",1.0,0.0,1.0,0.0
+JPR0046,Ivory Heights,PG,Co-ed,26.911743,75.747346,6100 per month,1.0,0.0,0.0,0.0
+JPR0047,Urban Address,PG,Girls,26.90323,75.730318,Rs. 12200,1.0,1.0,1.0,1.0
+JPR0048,Silver Oak Stay,PG,Boys,26.837204,75.80746,18900 per month,1.0,1.0,1.0,1.0
+JPR0049,Elite Villa,Independent Flat,Girls,26.830967,75.80873,17600,1.0,1.0,,1.0
+JPR0050,Prime Address,PG,Girls,26.908742,75.75071,8000 per month,0.0,0.0,0.0,1.0
+JPR0051,Royal Address,Hostel,Boys,26.95866,75.847993,Rs. 4500,0.0,0.0,0.0,0.0
+JPR0052,Amber Stay,PG,Girls,26.844503,75.810197,"₹7,800/month",0.0,0.0,0.0,0.0
+JPR0053,Green Valley Nest,PG,Co-ed,26.857235,75.876801,INR 9300/month,1.0,1.0,0.0,1.0
+JPR0054,Copper Leaf Point,PG,Boys,26.925968,75.773547,14400 per month,1.0,1.0,1.0,1.0
+JPR0055,Sunrise Villa,PG,Girls,26.84214,75.81357,Rs. 6800,0.0,1.0,0.0,0.0
+JPR0056,Sunshine Retreat,PG,Boys,26.86916,75.819365,INR 10800/month,0.0,0.0,1.0,1.0
+JPR0057,Crimson Villa,Hostel,Boys,26.916603,75.742585,INR 19400/month,1.0,1.0,0.0,1.0
+JPR0058,Highland Court,PG,Boys,26.882577,75.808551,11100,1.0,1.0,1.0,0.0
+JPR0059,Blue Orchid House,PG,Boys,26.920237,75.753404,INR 12200/month,0.0,0.0,0.0,0.0
+JPR0060,Sunshine Point,PG,Co-ed,26.849312,75.813925,Rs. 11600,0.0,1.0,0.0,1.0
+JPR0061,Amber Enclave,PG,Boys,26.883069,75.854811,Rs. 9700,1.0,0.0,1.0,1.0
+JPR0062,Highland Nest,Independent Flat,Girls,26.839286,75.834442,5100 per month,1.0,1.0,0.0,1.0
+JPR0063,Highland Heights,Hostel,Boys,26.805237,75.8328,9200 per month,1.0,1.0,1.0,0.0
+JPR0064,Green Valley Stay,PG,Co-ed,26.826582,75.892415,11200 per month,1.0,0.0,0.0,0.0
+JPR0065,Zenith Homes,PG,Girls,26.912462,75.737012,INR 19600/month,1.0,0.0,1.0,1.0
+JPR0066,Golden Nest Enclave,Independent Flat,Girls,26.878617,75.771612,INR 7800/month,1.0,0.0,1.0,1.0
+JPR0067,Crimson Palace,PG,Boys,26.825661,75.79944,11500,1.0,1.0,1.0,0.0
+JPR0068,Crimson Address,Hostel,Girls,26.826932,75.874023,6900 per month,0.0,0.0,0.0,0.0
+JPR0069,Sunshine Manor,PG,Boys,26.793891,75.843312,"₹10,300/month",1.0,,1.0,0.0
+JPR0070,Silver Oak Retreat,Independent Flat,Co-ed,26.83429,75.794162,6000,0.0,1.0,0.0,0.0
+JPR0071,Highland Palace,Independent Flat,Girls,26.842744,75.81405,"₹6,000/month",0.0,0.0,0.0,0.0
+JPR0072,Silver Oak Residency,Hostel,Girls,26.938478,75.753618,INR 8200/month,0.0,1.0,0.0,0.0
+JPR0073,Urban Stay,PG,Girls,26.842808,75.836319,18900,1.0,0.0,0.0,1.0
+JPR0074,Crimson Point,PG,Boys,26.839526,75.825082,5600,0.0,1.0,0.0,0.0
+JPR0075,Copper Leaf Heights,PG,Girls,26.813887,75.838517,Rs. 10100,1.0,0.0,0.0,0.0
+JPR0076,Comfort Stay,PG,Girls,26.83494,75.809394,INR 12600/month,1.0,0.0,1.0,0.0
+JPR0077,Royal Residency,PG,Girls,26.834685,75.799026,INR 5700/month,1.0,1.0,0.0,0.0
+JPR0078,Highland Court,PG,Girls,26.809002,75.780116,11000,1.0,1.0,1.0,1.0
+JPR0079,Copper Leaf Stay,Hostel,Boys,26.917646,75.73799,INR 11200/month,1.0,0.0,1.0,0.0
+JPR0080,Maple Retreat,Hostel,Boys,26.906636,75.732479,10800,1.0,0.0,0.0,1.0
+JPR0081,Crimson Homes,PG,Co-ed,26.761314,75.789201,Rs. 5900,,0.0,0.0,0.0
+JPR0082,Zenith Point,PG,Girls,26.805469,75.869188,7600,1.0,0.0,0.0,0.0
+JPR0083,Copper Leaf Homes,Independent Flat,Girls,26.84182,75.872488,INR 9400/month,1.0,0.0,0.0,1.0
+JPR0084,Golden Nest Retreat,PG,Co-ed,26.81556,75.847447,INR 10800/month,1.0,1.0,0.0,0.0
+JPR0085,Highland Stay,Hostel,Boys,26.809984,75.833411,7200,0.0,0.0,0.0,0.0
+JPR0086,Serene Stay,PG,Co-ed,26.912591,75.751209,10300,1.0,0.0,0.0,0.0
+JPR0087,Green Valley Point,PG,Co-ed,26.924066,75.695678,6300,0.0,0.0,0.0,0.0
+JPR0088,Copper Leaf Heights,PG,Co-ed,26.812094,75.879052,8400 per month,0.0,1.0,1.0,1.0
+JPR0089,Serene Address,PG,Co-ed,26.879851,75.759414,INR 4200/month,0.0,0.0,0.0,
+JPR0090,Royal Residency,Hostel,Boys,26.817678,75.848197,INR 14300/month,1.0,0.0,1.0,1.0
+JPR0091,Comfort Point,Hostel,Boys,26.845353,75.811858,,0.0,0.0,1.0,0.0
+JPR0092,Green Valley Nest,PG,Girls,26.821073,75.863084,5100,0.0,0.0,0.0,1.0
+JPR0093,Crimson Residency,Independent Flat,Boys,26.828071,75.83529,Rs. 5800,1.0,0.0,0.0,1.0
+JPR0094,Amber Address,PG,Boys,26.922626,75.7056,7200,1.0,0.0,1.0,1.0
+JPR0095,Sunshine Stay,Independent Flat,Co-ed,26.833608,75.787624,18600,1.0,1.0,1.0,1.0
+JPR0096,Serene Court,Independent Flat,Boys,26.842289,75.860753,15200 per month,1.0,0.0,1.0,1.0
+JPR0097,Silver Oak Stay,PG,Co-ed,26.915024,75.753502,INR 6900/month,0.0,0.0,0.0,0.0
+JPR0098,Elite Point,PG,Co-ed,27.005246,75.698576,9900,0.0,1.0,1.0,1.0
+JPR0099,Zenith Enclave,PG,Co-ed,26.91205,75.735823,INR 11100/month,0.0,0.0,0.0,1.0
+JPR0100,Comfort Nest,Hostel,Co-ed,26.93698,75.796174,"₹12,600/month",1.0,1.0,1.0,1.0
+JPR0101,Crimson Palace,Hostel,Co-ed,26.858498,75.802273,INR 10500/month,1.0,0.0,0.0,1.0
+JPR0102,Sunshine Point,Independent Flat,Co-ed,26.841948,75.812175,Rs. 6300,0.0,0.0,0.0,0.0
+JPR0103,Blue Orchid Heights,Hostel,Girls,26.822868,75.845327,Rs. 9300,0.0,0.0,0.0,0.0
+JPR0104,Copper Leaf Residency,PG,Boys,26.890743,75.81873,7300,1.0,0.0,1.0,1.0
+JPR0105,Prime Palace,PG,Co-ed,26.854327,75.869649,INR 5500/month,1.0,0.0,0.0,0.0
+JPR0106,Sunshine Enclave,Hostel,Co-ed,26.894664,75.779454,10400,0.0,0.0,1.0,1.0
+JPR0107,Blue Orchid Point,PG,Girls,26.950996,75.747076,7500 per month,0.0,0.0,0.0,1.0
+JPR0108,Zenith Stay,Hostel,Boys,26.818359,75.872109,Rs. 9400,1.0,0.0,0.0,0.0
+JPR0109,Golden Nest Villa,PG,Girls,26.818362,75.850907,7400,0.0,0.0,0.0,1.0
+JPR0110,Urban Residency,PG,Boys,26.801436,75.874805,9100 per month,1.0,1.0,0.0,1.0
+JPR0111,Cozy Homes,PG,Co-ed,26.842441,75.862397,8400,1.0,1.0,0.0,0.0
+JPR0112,Sunshine Court,Hostel,Co-ed,26.807531,75.847052,INR 7700/month,1.0,0.0,1.0,0.0
+JPR0113,Green Valley Stay,PG,Boys,26.923959,75.750126,INR 5700/month,0.0,0.0,0.0,1.0
+JPR0114,Crimson Homes,Hostel,Girls,26.8325,75.833106,INR 7500/month,1.0,0.0,1.0,0.0
+JPR0115,Green Valley Heights,PG,Boys,26.914603,75.760827,INR 9800/month,0.0,1.0,1.0,1.0
+JPR0116,Elite Residency,Hostel,Girls,26.755368,75.871422,"₹9,200/month",1.0,1.0,1.0,1.0
+JPR0117,Ivory Heights,Hostel,Boys,26.912642,75.736415,10900 per month,1.0,0.0,0.0,0.0
+JPR0118,Urban Stay,PG,Girls,26.928027,75.729697,9400 per month,1.0,0.0,1.0,0.0
+JPR0119,Highland Court,Hostel,Boys,26.925732,75.899546,INR 17200/month,0.0,1.0,1.0,0.0
+JPR0120,Highland Residency,PG,Boys,26.843248,75.802162,"₹5,300/month",0.0,0.0,0.0,0.0
+JPR0121,Copper Leaf Point,PG,Girls,26.804315,75.851036,INR 13700/month,,0.0,1.0,0.0
+JPR0122,Silver Oak Nest,PG,Boys,26.888051,75.872209,"₹9,100/month",1.0,1.0,1.0,0.0
+JPR0123,Sunshine Palace,Hostel,Girls,26.922983,75.632911,INR 5300/month,1.0,0.0,0.0,1.0
+JPR0124,Prime Retreat,Independent Flat,Boys,26.805075,75.855874,Rs. 6300,1.0,0.0,0.0,
+JPR0125,Silver Oak Villa,Hostel,Girls,26.914423,75.770507,Rs. 5000,0.0,0.0,0.0,0.0
+JPR0126,Sunrise Nest,Hostel,Co-ed,26.814189,75.851739,10000,0.0,0.0,0.0,1.0
+JPR0127,Cozy Homes,Hostel,Co-ed,26.910112,75.744993,,1.0,0.0,1.0,1.0
+JPR0128,Royal Enclave,PG,Co-ed,26.801394,75.689261,7800 per month,0.0,0.0,1.0,0.0
+JPR0129,Silver Oak Retreat,Independent Flat,Co-ed,26.842605,75.812965,9000,1.0,1.0,0.0,1.0
+JPR0130,Sunshine House,PG,Boys,26.832804,75.822363,Rs. 10900,,0.0,1.0,1.0
+JPR0131,Silver Oak Nest,Independent Flat,Boys,26.82088,75.877558,INR 4600/month,0.0,0.0,0.0,0.0
+JPR0132,Silver Oak Retreat,Hostel,Girls,26.85747,75.739363,6800,1.0,0.0,0.0,0.0
+JPR0133,Maple Manor,Hostel,Co-ed,26.813967,75.85057,INR 9700/month,1.0,0.0,1.0,1.0
+JPR0134,Crimson Heights,Hostel,Co-ed,26.886948,75.794849,Rs. 6700,0.0,0.0,0.0,0.0
+JPR0135,Cozy Enclave,PG,Boys,26.852828,75.814951,4300,0.0,0.0,0.0,0.0
+JPR0136,Prime Address,Hostel,Boys,26.81991,75.849144,Rs. 11900,0.0,0.0,0.0,0.0
+JPR0137,Ivory Retreat,PG,Boys,26.821355,75.847058,"₹8,900/month",0.0,0.0,0.0,0.0
+JPR0138,Royal Address,Hostel,Co-ed,26.823787,75.796416,Rs. 14100,1.0,1.0,1.0,0.0
+JPR0139,Highland Nest,Hostel,Girls,26.817762,75.867408,INR 15300/month,1.0,1.0,0.0,1.0
+JPR0140,Crimson Residency,Independent Flat,Boys,26.788836,75.728507,8100 per month,1.0,0.0,0.0,1.0
+JPR0141,Silver Oak Point,Hostel,Girls,26.791016,75.851509,Rs. 8700,1.0,0.0,1.0,0.0
+JPR0142,Prime Residency,PG,Girls,26.921373,75.74067,9300 per month,1.0,1.0,1.0,1.0
+JPR0143,Silver Oak Manor,PG,Co-ed,26.970646,75.67822,"₹8,300/month",1.0,0.0,0.0,1.0
+JPR0144,Maple Residency,Hostel,Boys,26.971451,75.734677,5000,1.0,0.0,0.0,1.0
+JPR0145,Silver Oak Enclave,PG,Co-ed,26.90888,75.739728,10300,1.0,1.0,0.0,1.0
+JPR0146,Maple House,PG,Girls,26.901661,75.702982,,1.0,0.0,1.0,1.0
+JPR0147,Comfort House,Hostel,Co-ed,26.843713,75.809137,8000,0.0,0.0,0.0,0.0
+JPR0148,Highland Address,Hostel,Co-ed,26.913237,75.743133,Rs. 12300,1.0,1.0,1.0,0.0
+JPR0149,Prime Homes,Hostel,Boys,26.897832,75.726078,8300 per month,0.0,1.0,0.0,1.0
+JPR0150,Sunshine Homes,PG,Boys,26.928702,75.748716,INR 7000/month,0.0,1.0,1.0,0.0
+JPR0151,Crimson Palace,Hostel,Girls,26.943041,75.738432,Rs. 4900,0.0,0.0,1.0,0.0
+JPR0152,Ivory Address,PG,Boys,26.818191,75.847148,Rs. 4900,0.0,0.0,0.0,1.0
+JPR0153,Zenith Court,Hostel,Co-ed,26.887649,75.753077,Rs. 5400,,0.0,0.0,0.0
+JPR0154,Prime Homes,PG,Girls,26.891355,75.702124,INR 4600/month,,1.0,0.0,0.0
+JPR0155,Comfort Manor,Independent Flat,Co-ed,26.871189,75.699137,"₹17,800/month",1.0,1.0,1.0,1.0
+JPR0156,Maple Court,PG,Boys,26.904061,75.746312,4300,0.0,0.0,0.0,0.0
+JPR0157,Zenith House,PG,Boys,26.841074,75.805513,10300 per month,1.0,1.0,1.0,1.0
+JPR0158,Silver Oak Manor,Hostel,Girls,26.829269,75.857827,,0.0,0.0,1.0,1.0
+JPR0159,Silver Oak Heights,Hostel,Boys,26.839919,75.807266,12200 per month,1.0,1.0,1.0,1.0
+JPR0160,Zenith Point,PG,Girls,26.816859,75.847792,7000,0.0,0.0,1.0,1.0
+JPR0161,Maple Address,Hostel,Co-ed,26.897021,75.738901,INR 12200/month,1.0,0.0,1.0,1.0
+JPR0162,Comfort Heights,PG,Girls,26.921441,75.716581,Rs. 13600,1.0,1.0,1.0,1.0
+JPR0163,Cozy Retreat,Independent Flat,Co-ed,26.837993,75.803296,Rs. 14600,1.0,1.0,0.0,1.0
+JPR0164,Zenith Nest,Hostel,Boys,26.840194,75.833934,INR 7300/month,0.0,0.0,0.0,0.0
+JPR0165,Royal House,PG,Boys,26.829745,75.798524,"₹15,400/month",1.0,1.0,1.0,1.0
+JPR0166,Silver Oak Manor,Hostel,Co-ed,26.830093,75.827525,"₹9,100/month",1.0,1.0,1.0,0.0
+JPR0167,Sunrise Nest,PG,Co-ed,26.830435,75.763755,10100 per month,0.0,0.0,1.0,0.0
+JPR0168,Ivory Stay,PG,Girls,26.802559,75.80609,,0.0,0.0,0.0,0.0
+JPR0169,Amber Retreat,Independent Flat,Co-ed,26.823333,75.793487,"₹6,100/month",0.0,0.0,1.0,1.0
+JPR0170,Maple Nest,Hostel,Girls,26.832894,75.879005,INR 9600/month,0.0,0.0,1.0,1.0
+JPR0171,Sunrise House,PG,Boys,26.875404,75.77428,8200,1.0,0.0,1.0,0.0
+JPR0172,Royal Enclave,PG,Boys,26.842507,75.812334,,1.0,1.0,0.0,1.0
+JPR0173,Sunrise Enclave,PG,Co-ed,26.840616,75.815996,,0.0,0.0,0.0,1.0
+JPR0174,Elite Residency,Independent Flat,Boys,26.832097,75.87848,Rs. 9700,1.0,1.0,1.0,0.0
+JPR0175,Golden Nest Villa,PG,Girls,26.834733,75.812007,INR 7400/month,0.0,0.0,,0.0
+JPR0176,Sunshine Address,PG,Girls,26.831738,75.850117,INR 10700/month,1.0,1.0,0.0,1.0
+JPR0177,Serene House,PG,Girls,26.836546,75.807275,7500 per month,1.0,0.0,0.0,1.0
+JPR0178,Cozy Homes,PG,Girls,26.75529,75.77553,Rs. 7200,0.0,0.0,1.0,1.0
+JPR0179,Sunshine Stay,PG,Boys,26.807157,75.819481,10900 per month,1.0,0.0,0.0,0.0
+JPR0180,Comfort Address,PG,Boys,26.84546,75.793743,Rs. 11800,1.0,1.0,1.0,1.0
+JPR0181,Royal Enclave,PG,Girls,26.912476,75.733949,5000 per month,1.0,0.0,0.0,1.0
+JPR0182,Cozy Stay,PG,Girls,26.859279,75.808467,4300 per month,1.0,0.0,0.0,
+JPR0183,Copper Leaf Homes,Independent Flat,Girls,26.825212,75.819177,8100,0.0,0.0,0.0,0.0
+JPR0184,Prime Stay,PG,Girls,26.955046,75.702552,7200 per month,0.0,0.0,0.0,0.0
+JPR0185,Royal Address,Hostel,Boys,26.88858,75.672137,INR 5300/month,0.0,1.0,1.0,0.0
+JPR0186,Silver Oak Enclave,Hostel,Co-ed,26.841702,75.814683,13600 per month,1.0,1.0,1.0,0.0
+JPR0187,Sunrise Villa,Hostel,Girls,26.841092,75.862164,Rs. 8000,0.0,0.0,0.0,1.0
+JPR0188,Cozy Nest,Independent Flat,Boys,26.901162,75.754962,6100 per month,1.0,0.0,1.0,0.0
+JPR0189,Serene Villa,PG,Girls,26.836751,75.856339,"₹10,300/month",0.0,1.0,,1.0
+JPR0190,Highland Court,PG,Co-ed,26.957879,75.728206,Rs. 9800,1.0,0.0,0.0,0.0
+JPR0191,Copper Leaf House,PG,Co-ed,26.912129,75.649159,"₹7,200/month",1.0,0.0,,1.0
+JPR0192,Green Valley Court,PG,Boys,26.778619,75.846818,Rs. 7000,0.0,0.0,0.0,0.0
+JPR0193,Elite Manor,Hostel,Girls,26.755409,75.684867,INR 7200/month,0.0,,1.0,1.0
+JPR0194,Ivory Nest,Hostel,Boys,26.807016,75.850103,INR 8000/month,0.0,0.0,0.0,0.0
+JPR0195,Comfort Stay,Independent Flat,Boys,26.828713,75.779072,INR 7000/month,1.0,0.0,0.0,0.0
+JPR0196,Blue Orchid Residency,PG,Girls,26.840233,75.82774,"₹17,300/month",1.0,1.0,1.0,1.0
+JPR0197,Serene Nest,Independent Flat,Girls,26.799499,75.800077,6900,0.0,0.0,0.0,0.0
+JPR0198,Prime Nest,PG,Co-ed,26.849305,75.715997,Rs. 9000,0.0,0.0,1.0,1.0
+JPR0199,Royal Retreat,PG,Boys,26.924858,75.83261,INR 11700/month,,0.0,0.0,1.0
+JPR0200,Prime Point,PG,Boys,26.917182,75.739918,Rs. 7100,1.0,0.0,1.0,1.0
+JPR0201,Serene Court,Hostel,Girls,26.89779,75.713014,"₹15,700/month",1.0,1.0,1.0,1.0
+JPR0202,Elite Heights,PG,Boys,26.822649,75.846952,6900,1.0,1.0,0.0,1.0
+JPR0203,Sunshine Villa,Independent Flat,Boys,26.81244,75.851105,"₹8,400/month",1.0,1.0,0.0,0.0
+JPR0204,Elite Villa,Independent Flat,Boys,26.957596,75.77234,Rs. 13400,1.0,1.0,0.0,1.0
+JPR0205,Crimson Palace,Independent Flat,Girls,26.893965,75.75222,11700,1.0,1.0,0.0,1.0
+JPR0206,Crimson House,PG,Boys,26.822982,75.848587,18400,1.0,0.0,1.0,1.0
+JPR0207,Maple Nest,Independent Flat,Girls,26.825129,75.841197,"₹7,000/month",0.0,1.0,0.0,0.0
+JPR0208,Green Valley Nest,Hostel,Boys,26.843552,75.81942,INR 11300/month,1.0,0.0,1.0,0.0
+JPR0209,Copper Leaf Point,PG,Boys,26.815387,75.848749,Rs. 5700,0.0,0.0,0.0,1.0
+JPR0210,Comfort Retreat,PG,Girls,26.822616,75.840667,11300 per month,1.0,1.0,0.0,0.0
+JPR0211,Blue Orchid Point,PG,Boys,26.926449,75.733586,16700 per month,0.0,1.0,1.0,1.0
+JPR0212,Zenith Enclave,PG,Girls,26.915435,75.732991,"₹5,300/month",0.0,0.0,,0.0
+JPR0213,Crimson Point,Hostel,Boys,26.916725,75.699271,Rs. 9600,0.0,0.0,,1.0
+JPR0214,Prime Homes,Independent Flat,Girls,26.915204,75.689859,Rs. 5200,1.0,0.0,0.0,1.0
+JPR0215,Zenith Nest,PG,Boys,26.927346,75.755052,"₹11,500/month",1.0,1.0,0.0,0.0
+JPR0216,Zenith Residency,Hostel,Boys,26.912955,75.736402,Rs. 9000,1.0,0.0,1.0,1.0
+JPR0217,Golden Nest Court,Independent Flat,Girls,26.822025,75.82623,INR 15300/month,1.0,0.0,1.0,1.0
+JPR0218,Urban Retreat,PG,Co-ed,26.923254,75.747951,"₹10,700/month",1.0,1.0,0.0,0.0
+JPR0219,Green Valley Heights,Independent Flat,Boys,26.911114,75.733695,INR 6100/month,0.0,1.0,1.0,0.0
+JPR0220,Highland Stay,Hostel,Girls,26.846076,75.826522,Rs. 5300,0.0,0.0,1.0,0.0
+JPR0221,Zenith Stay,Hostel,Girls,26.829813,75.856102,"₹7,300/month",0.0,1.0,0.0,0.0
+JPR0222,Elite Retreat,PG,Girls,26.813461,75.871255,Rs. 7700,1.0,0.0,0.0,0.0
+JPR0223,Sunrise Palace,Hostel,Co-ed,26.802481,75.886846,"₹5,500/month",0.0,0.0,0.0,0.0
+JPR0224,Serene Enclave,PG,Boys,26.925943,75.737919,Rs. 15100,1.0,1.0,1.0,1.0
+JPR0225,Crimson Stay,Hostel,Co-ed,26.910978,75.737988,INR 8500/month,1.0,0.0,1.0,1.0
+JPR0226,Maple Palace,PG,Boys,26.900388,75.727092,INR 9200/month,1.0,0.0,1.0,0.0
+JPR0227,Blue Orchid Residency,Independent Flat,Boys,26.814166,75.832896,Rs. 7900,0.0,0.0,0.0,1.0
+JPR0228,Silver Oak Address,PG,Co-ed,26.920561,75.687989,"₹12,400/month",1.0,0.0,1.0,1.0
+JPR0229,Maple Enclave,PG,Girls,26.758716,75.785712,10400 per month,1.0,1.0,0.0,1.0
+JPR0230,Copper Leaf Nest,Hostel,Girls,26.815925,75.852194,INR 7000/month,0.0,0.0,0.0,0.0
+JPR0231,Prime Residency,PG,Girls,26.973097,75.821899,INR 8500/month,1.0,0.0,1.0,1.0
+JPR0232,Golden Nest Retreat,Hostel,Girls,26.830734,75.801209,10500 per month,1.0,0.0,1.0,0.0
+JPR0233,Golden Nest Address,Independent Flat,Boys,26.816793,75.801798,Rs. 6700,1.0,0.0,0.0,0.0
+JPR0234,Golden Nest Retreat,Hostel,Girls,26.912198,75.73702,"₹9,100/month",0.0,0.0,1.0,1.0
+JPR0235,Comfort Stay,PG,Boys,26.829784,75.859052,Rs. 11600,1.0,0.0,0.0,1.0
+JPR0236,Urban Heights,Hostel,Co-ed,26.825313,75.851657,7300,1.0,1.0,0.0,0.0
+JPR0237,Maple Stay,Hostel,Co-ed,26.81433,75.850646,INR 12400/month,1.0,1.0,1.0,1.0
+JPR0238,Elite Court,Hostel,Boys,26.839278,75.81152,17900,1.0,,1.0,1.0
+JPR0239,Maple House,PG,Girls,26.850432,75.784959,INR 10000/month,0.0,1.0,1.0,1.0
+JPR0240,Copper Leaf Palace,PG,Boys,26.844693,75.817897,INR 8000/month,,0.0,1.0,1.0
+JPR0241,Blue Orchid Stay,Hostel,Boys,26.773005,75.820015,10200,1.0,1.0,1.0,1.0
+JPR0242,Urban Manor,PG,Co-ed,26.905425,75.686949,7700,1.0,,1.0,1.0
+JPR0243,Amber Residency,PG,Boys,26.955967,75.691434,Rs. 10800,0.0,0.0,0.0,1.0
+JPR0244,Silver Oak Residency,PG,Girls,26.837734,75.793975,4900,1.0,1.0,1.0,
+JPR0245,Amber Enclave,Hostel,Co-ed,26.831881,75.762622,Rs. 9900,0.0,0.0,1.0,0.0
+JPR0246,Golden Nest Court,Independent Flat,Co-ed,26.92638,75.754679,Rs. 13000,1.0,1.0,1.0,0.0
+JPR0247,Comfort Court,Hostel,Girls,26.945572,75.757348,Rs. 10700,0.0,1.0,1.0,0.0
+JPR0248,Copper Leaf Residency,PG,Girls,26.94686,75.80047,INR 6200/month,0.0,0.0,0.0,1.0
+JPR0249,Maple Retreat,PG,Girls,26.929806,75.77951,INR 10500/month,0.0,1.0,1.0,0.0
+JPR0250,Silver Oak Stay,Independent Flat,Co-ed,26.891587,75.795809,7100,1.0,0.0,0.0,0.0
+JPR0251,Blue Orchid Homes,Independent Flat,Girls,26.938111,75.753101,INR 6400/month,0.0,0.0,0.0,0.0
+JPR0252,Maple Nest,Independent Flat,Girls,26.842226,75.814571,7100,0.0,0.0,0.0,0.0
+JPR0253,Comfort Court,Hostel,Boys,26.7851,75.871792,INR 6100/month,1.0,1.0,1.0,0.0
+JPR0254,Sunrise Heights,PG,Boys,26.821309,75.848457,"₹9,500/month",1.0,0.0,1.0,1.0
+JPR0255,Comfort Homes,Hostel,Girls,26.846028,75.822441,"₹10,700/month",1.0,0.0,0.0,0.0
+JPR0256,Copper Leaf House,PG,Co-ed,26.823143,75.779941,3700,0.0,0.0,0.0,0.0
+JPR0257,Cozy Palace,PG,Co-ed,26.859603,75.80218,INR 15800/month,1.0,1.0,1.0,1.0
+JPR0258,Copper Leaf Residency,Hostel,Co-ed,26.819661,75.88116,INR 12700/month,1.0,1.0,0.0,0.0
+JPR0259,Sunrise Villa,PG,Girls,26.940348,75.827111,Rs. 14400,1.0,0.0,1.0,1.0
+JPR0260,Sunrise Court,PG,Co-ed,26.919678,75.762017,4600 per month,1.0,1.0,0.0,1.0
+JPR0261,Serene Enclave,PG,Co-ed,26.935382,75.74942,8700,1.0,1.0,1.0,1.0
+JPR0262,Royal Point,PG,Girls,26.756744,75.73669,16700 per month,1.0,1.0,0.0,0.0
+JPR0263,Prime Court,Independent Flat,Boys,26.825264,75.837859,9100 per month,1.0,0.0,1.0,1.0
+JPR0264,Prime Court,PG,Girls,26.84086,75.780247,5600,1.0,0.0,0.0,0.0
+JPR0265,Comfort Stay,PG,Co-ed,26.843609,75.756106,INR 5100/month,1.0,0.0,1.0,0.0
+JPR0266,Serene Nest,PG,Boys,26.852612,75.812093,12200,1.0,1.0,1.0,1.0
+JPR0267,Sunshine Point,PG,Co-ed,26.842818,75.812234,14700 per month,1.0,0.0,1.0,1.0
+JPR0268,Ivory Heights,PG,Boys,26.797763,75.857606,INR 11300/month,0.0,0.0,1.0,1.0
+JPR0269,Maple House,Hostel,Girls,26.813205,75.815728,,0.0,0.0,1.0,1.0
+JPR0270,Royal Nest,PG,Girls,26.853582,75.818927,7100,1.0,0.0,0.0,1.0
+JPR0271,Silver Oak Retreat,Hostel,Girls,26.813731,75.863026,11400,1.0,0.0,1.0,0.0
+JPR0272,Maple Heights,Independent Flat,Girls,26.929523,75.724941,INR 16800/month,1.0,,0.0,1.0
+JPR0273,Copper Leaf Retreat,Hostel,Co-ed,26.796346,75.817053,,1.0,0.0,1.0,0.0
+JPR0274,Blue Orchid Villa,PG,Girls,26.888943,75.841285,"₹8,200/month",1.0,0.0,1.0,0.0
+JPR0275,Crimson Retreat,PG,Boys,26.815123,75.845922,INR 12300/month,1.0,0.0,1.0,1.0
+JPR0276,Blue Orchid Retreat,Independent Flat,Girls,26.838886,75.904089,Rs. 5100,0.0,0.0,0.0,0.0
+JPR0277,Ivory Nest,Hostel,Boys,26.82181,75.848176,7900,1.0,0.0,1.0,1.0
+JPR0278,Blue Orchid Residency,Hostel,Boys,26.915042,75.732804,5800,0.0,0.0,0.0,1.0
+JPR0279,Sunshine Villa,Independent Flat,Boys,26.912566,75.753918,8400 per month,1.0,0.0,1.0,1.0
+JPR0280,Silver Oak Address,Independent Flat,Co-ed,26.798813,75.830401,INR 8000/month,0.0,0.0,1.0,1.0
+JPR0281,Copper Leaf Point,Independent Flat,Girls,26.86326,75.759031,8500 per month,0.0,0.0,1.0,1.0
+JPR0282,Golden Nest Stay,Hostel,Girls,26.922766,75.756233,10200 per month,,1.0,1.0,0.0
+JPR0283,Comfort Villa,PG,Boys,26.923267,75.734407,"₹6,400/month",1.0,0.0,0.0,0.0
+JPR0284,Sunshine Nest,Independent Flat,Boys,26.908581,75.730517,13700,1.0,1.0,1.0,1.0
+JPR0285,Golden Nest Enclave,Hostel,Co-ed,26.843502,75.803179,10100 per month,0.0,0.0,1.0,1.0
+JPR0286,Ivory Enclave,PG,Girls,26.915403,75.736132,"₹5,800/month",1.0,0.0,0.0,0.0
+JPR0287,Green Valley House,Hostel,Co-ed,26.816992,75.864603,INR 8500/month,1.0,1.0,0.0,1.0
+JPR0288,Cozy Manor,Hostel,Boys,26.816631,75.851087,8700 per month,1.0,1.0,1.0,0.0
+JPR0289,Golden Nest Stay,Independent Flat,Boys,26.903712,75.752627,6700,0.0,0.0,1.0,1.0
+JPR0290,Amber Palace,Hostel,Co-ed,26.876229,75.75556,11900 per month,1.0,1.0,1.0,0.0
+JPR0291,Blue Orchid Point,PG,Girls,26.811027,75.844555,INR 13200/month,1.0,0.0,0.0,0.0
+JPR0292,Silver Oak Manor,Independent Flat,Boys,26.829559,75.876249,6900 per month,1.0,1.0,,0.0
+JPR0293,Zenith Heights,Hostel,Boys,26.846223,75.814058,12700,1.0,1.0,1.0,1.0
+JPR0294,Highland Villa,Hostel,Co-ed,26.80032,75.820567,"₹7,300/month",1.0,0.0,0.0,0.0
+JPR0295,Urban Address,PG,Girls,26.823886,75.835918,6000,1.0,0.0,0.0,0.0
+JPR0296,Highland Homes,PG,Girls,26.880584,75.715658,"₹5,300/month",1.0,0.0,0.0,0.0
+JPR0297,Highland Nest,Hostel,Boys,26.828305,75.898598,Rs. 18200,1.0,1.0,1.0,1.0
+JPR0298,Ivory Homes,PG,Boys,26.841869,75.815973,11400,1.0,1.0,1.0,1.0
+JPR0299,Silver Oak Heights,PG,Co-ed,26.814501,75.849111,5000,1.0,0.0,0.0,0.0
+JPR0300,Royal House,Hostel,Boys,26.972537,75.753848,INR 9900/month,1.0,1.0,1.0,0.0
+JPR0301,Sunshine Retreat,PG,Girls,26.909498,75.737773,8400 per month,0.0,1.0,0.0,1.0
+JPR0302,Green Valley House,PG,Co-ed,26.791097,75.91211,"₹6,600/month",0.0,1.0,0.0,0.0
+JPR0303,Sunrise Residency,PG,Boys,26.927699,75.741416,"₹19,100/month",1.0,1.0,1.0,0.0
+JPR0304,Urban Enclave,PG,Girls,26.845804,75.81266,INR 14500/month,1.0,1.0,1.0,1.0
+JPR0305,Amber Point,Hostel,Girls,26.917745,75.815629,INR 8300/month,1.0,0.0,1.0,0.0
+JPR0306,Blue Orchid Court,PG,Girls,26.959399,75.820606,16300 per month,1.0,1.0,1.0,1.0
+JPR0307,Cozy Homes,PG,Girls,26.772038,75.863733,7500 per month,1.0,0.0,1.0,1.0
+JPR0308,Cozy House,Hostel,Boys,26.799515,75.850681,12800,1.0,1.0,1.0,0.0
+JPR0309,Prime Residency,Independent Flat,Girls,26.928122,75.758153,Rs. 11400,0.0,0.0,1.0,0.0
+JPR0310,Comfort Nest,Hostel,Girls,26.841956,75.813718,11500 per month,0.0,0.0,1.0,1.0
+JPR0311,Ivory Manor,PG,Girls,26.850384,75.84239,INR 6400/month,0.0,0.0,0.0,0.0
+JPR0312,Elite Manor,PG,Boys,26.937056,75.731488,17800 per month,0.0,1.0,1.0,1.0
+JPR0313,Silver Oak House,Independent Flat,Girls,26.841162,75.8108,"₹9,200/month",1.0,1.0,1.0,0.0
+JPR0314,Blue Orchid Nest,PG,Co-ed,26.847625,75.870991,Rs. 6900,0.0,0.0,0.0,0.0
+JPR0315,Blue Orchid Homes,Hostel,Girls,26.814251,75.844796,7700,0.0,0.0,0.0,1.0
+JPR0316,Golden Nest Palace,PG,Girls,26.854352,75.833729,"₹8,600/month",1.0,1.0,0.0,0.0
+JPR0317,Urban Heights,PG,Girls,26.816311,75.813515,"₹10,400/month",0.0,0.0,0.0,0.0
+JPR0318,Royal Manor,Hostel,Co-ed,26.830522,75.83159,Rs. 8500,1.0,1.0,0.0,1.0
+JPR0319,Golden Nest Address,Hostel,Co-ed,26.930994,75.740852,14900,1.0,0.0,1.0,0.0
+JPR0320,Silver Oak Court,Hostel,Boys,26.889972,75.674103,INR 4300/month,0.0,0.0,0.0,1.0
+JPR0321,Crimson Manor,PG,Girls,26.84764,75.840828,9800,1.0,0.0,1.0,1.0
+JPR0322,Golden Nest Stay,PG,Boys,26.893266,75.753603,5600 per month,1.0,0.0,0.0,0.0
+JPR0323,Comfort Manor,Hostel,Girls,26.930899,75.753316,"₹13,600/month",1.0,0.0,1.0,1.0
+JPR0324,Sunshine Nest,Hostel,Boys,26.866355,75.8129,14100 per month,1.0,1.0,,1.0
+JPR0325,Ivory Palace,PG,Co-ed,26.760607,75.894978,INR 9800/month,1.0,0.0,1.0,1.0
+JPR0326,Zenith Homes,PG,Boys,26.823895,75.839832,11000 per month,1.0,1.0,0.0,0.0
+JPR0327,Comfort Manor,PG,Girls,26.784453,75.833669,6700,0.0,0.0,0.0,0.0
+JPR0328,Serene Enclave,Independent Flat,Girls,26.864025,75.789597,9800 per month,0.0,0.0,0.0,0.0
+JPR0329,Cozy Homes,Hostel,Boys,26.906874,75.748375,INR 13600/month,1.0,1.0,0.0,1.0
+JPR0330,Urban Court,Independent Flat,Co-ed,26.824619,75.82342,INR 10100/month,1.0,0.0,1.0,1.0
+JPR0331,Cozy Homes,PG,Co-ed,26.825375,75.814767,INR 6800/month,0.0,0.0,0.0,0.0
+JPR0332,Cozy Villa,Independent Flat,Girls,26.847526,75.799854,12000,0.0,0.0,1.0,0.0
+JPR0333,Highland Stay,PG,Girls,26.813027,75.848508,INR 18100/month,1.0,0.0,0.0,1.0
+JPR0334,Crimson Heights,Hostel,Boys,26.842141,75.81313,"₹5,300/month",1.0,0.0,0.0,0.0
+JPR0335,Green Valley Stay,Hostel,Girls,26.904131,75.743799,INR 5900/month,0.0,1.0,0.0,0.0
+JPR0336,Blue Orchid Homes,PG,Boys,26.821722,75.832339,11800 per month,1.0,0.0,1.0,0.0
+JPR0337,Amber Retreat,PG,Girls,26.848713,75.73226,12200 per month,1.0,1.0,1.0,1.0
+JPR0338,Blue Orchid Address,PG,Co-ed,26.843698,75.824673,6200 per month,0.0,0.0,0.0,1.0
+JPR0339,Amber Nest,PG,Boys,26.840837,75.811839,7200,0.0,1.0,0.0,1.0
+JPR0340,Silver Oak Homes,Hostel,Co-ed,26.894132,75.717789,4800 per month,0.0,0.0,1.0,0.0
+JPR0341,Sunrise Enclave,Hostel,Boys,26.90209,75.747582,7000,1.0,0.0,1.0,0.0
+JPR0342,Copper Leaf Retreat,Hostel,Co-ed,26.771297,75.843393,10100,0.0,1.0,1.0,0.0
+JPR0343,Golden Nest Residency,Hostel,Boys,26.926802,75.739443,INR 12600/month,1.0,0.0,0.0,1.0
+JPR0344,Serene Nest,Hostel,Girls,26.905439,75.744008,"₹9,300/month",0.0,0.0,0.0,0.0
+JPR0345,Comfort Address,PG,Boys,26.805763,75.843201,INR 10500/month,1.0,1.0,0.0,0.0
+JPR0346,Blue Orchid Stay,PG,Co-ed,26.898921,75.724717,,1.0,0.0,0.0,0.0
+JPR0347,Copper Leaf Nest,Independent Flat,Girls,26.854769,75.779282,19700,1.0,1.0,,1.0
+JPR0348,Prime Nest,PG,Boys,26.869614,75.804183,10900,1.0,1.0,1.0,0.0
+JPR0349,Royal Nest,Hostel,Girls,26.815938,75.849838,12900 per month,1.0,1.0,1.0,1.0
+JPR0350,Highland House,PG,Girls,26.815697,75.849247,10300 per month,0.0,1.0,0.0,0.0
+JPR0351,Maple Nest,Hostel,Girls,26.817905,75.906968,INR 5000/month,0.0,1.0,0.0,0.0
+JPR0352,Sunshine Residency,Hostel,Co-ed,26.953948,75.693259,Rs. 10400,0.0,0.0,1.0,1.0
+JPR0353,Prime Villa,PG,Girls,26.875725,75.792062,Rs. 4200,1.0,1.0,1.0,0.0
+JPR0354,Maple Palace,PG,Boys,26.839801,75.813239,11000 per month,1.0,1.0,1.0,1.0
+JPR0355,Blue Orchid Heights,Hostel,Boys,26.814347,75.85671,Rs. 7200,1.0,1.0,0.0,0.0
+JPR0356,Sunshine Manor,PG,Girls,26.915004,75.728037,7600 per month,1.0,0.0,0.0,1.0
+JPR0357,Blue Orchid Court,PG,Girls,26.905744,75.754934,17900,1.0,1.0,1.0,1.0
+JPR0358,Prime Point,Hostel,Boys,26.837719,75.789746,INR 6600/month,1.0,0.0,0.0,1.0
+JPR0359,Amber Homes,PG,Boys,26.809977,75.770981,"₹15,900/month",1.0,0.0,1.0,1.0
+JPR0360,Zenith Villa,Independent Flat,Girls,26.843427,75.815979,INR 6800/month,1.0,1.0,0.0,1.0
+JPR0361,Sunshine Point,Hostel,Co-ed,26.923049,75.763031,7700 per month,1.0,0.0,0.0,1.0
+JPR0362,Copper Leaf Manor,PG,Boys,26.837931,75.794819,10500 per month,1.0,0.0,0.0,1.0
+JPR0363,Comfort Homes,Hostel,Girls,26.839879,75.811829,INR 11900/month,1.0,1.0,1.0,1.0
+JPR0364,Sunrise Enclave,Hostel,Co-ed,26.822297,75.847673,7400 per month,0.0,0.0,0.0,0.0
+JPR0365,Cozy Stay,PG,Girls,26.85638,75.857318,Rs. 6800,1.0,0.0,0.0,0.0
+JPR0366,Elite Manor,PG,Boys,26.92963,75.742237,Rs. 6200,0.0,1.0,1.0,0.0
+JPR0367,Crimson Retreat,PG,Girls,26.889293,75.889309,4300 per month,0.0,1.0,1.0,0.0
+JPR0368,Comfort Point,PG,Co-ed,26.882355,75.860222,11300 per month,1.0,1.0,0.0,1.0
+JPR0369,Blue Orchid Villa,PG,Boys,26.848867,75.866906,Rs. 14200,1.0,0.0,1.0,0.0
+JPR0370,Zenith Residency,PG,Girls,26.908185,75.732935,15300 per month,1.0,1.0,1.0,1.0
+JPR0371,Comfort Villa,PG,Boys,26.91868,75.725504,7800 per month,1.0,0.0,1.0,1.0
+JPR0372,Comfort Retreat,Hostel,Boys,26.784419,75.895671,INR 10600/month,1.0,1.0,1.0,0.0
+JPR0373,Highland Palace,Hostel,Girls,26.816961,75.842703,"₹9,000/month",0.0,,1.0,1.0
+JPR0374,Sunrise Homes,Hostel,Girls,26.818988,75.842121,,1.0,1.0,0.0,0.0
+JPR0375,Green Valley Residency,Hostel,Boys,26.836053,75.800912,INR 12200/month,1.0,,1.0,1.0
+JPR0376,Prime Homes,Hostel,Girls,26.840589,75.811221,"₹9,800/month",1.0,0.0,0.0,1.0
+JPR0377,Crimson Court,Hostel,Girls,26.804218,75.841547,7900 per month,0.0,0.0,1.0,0.0
+JPR0378,Blue Orchid Villa,Hostel,Girls,26.841859,75.808373,6700 per month,1.0,1.0,0.0,0.0
+JPR0379,Royal Residency,PG,Girls,26.825081,75.898436,INR 7800/month,1.0,1.0,0.0,0.0
+JPR0380,Ivory Stay,Independent Flat,Boys,26.914541,75.737176,10500 per month,0.0,1.0,0.0,1.0
+JPR0381,Maple Homes,PG,Co-ed,26.797709,75.833244,14800,1.0,1.0,1.0,1.0
+JPR0382,Maple Enclave,PG,Girls,26.914317,75.756656,INR 10900/month,1.0,1.0,1.0,0.0
+JPR0383,Copper Leaf Homes,Hostel,Girls,26.832944,75.806,"₹6,100/month",0.0,0.0,1.0,0.0
+JPR0384,Amber Manor,PG,Co-ed,26.859289,75.897313,INR 17000/month,1.0,1.0,1.0,1.0
+JPR0385,Amber Retreat,PG,Boys,26.841084,75.809515,Rs. 7900,0.0,0.0,0.0,
+JPR0386,Comfort Retreat,Hostel,Boys,26.9018,75.742505,INR 12200/month,1.0,0.0,0.0,
+JPR0387,Golden Nest Villa,Hostel,Girls,26.902223,75.70693,6000 per month,0.0,0.0,0.0,0.0
+JPR0388,Ivory Retreat,Hostel,Girls,26.986152,75.823232,9400 per month,1.0,1.0,1.0,
+JPR0389,Cozy House,Hostel,Co-ed,26.841803,75.810261,18300,1.0,1.0,1.0,1.0
+JPR0390,Zenith Villa,PG,Co-ed,26.839258,75.83455,5900,0.0,1.0,0.0,
+JPR0391,Cozy Retreat,PG,Boys,26.767472,75.698845,17300,1.0,0.0,1.0,1.0
+JPR0392,Urban Address,Hostel,Girls,26.86027,75.865957,"₹5,700/month",1.0,0.0,0.0,0.0
+JPR0393,Sunshine Heights,PG,Girls,26.913586,75.746561,16100,1.0,1.0,1.0,1.0
+JPR0394,Ivory Nest,Hostel,Boys,26.921251,75.741479,"₹10,800/month",1.0,1.0,1.0,0.0
+JPR0395,Zenith House,PG,Co-ed,26.830821,75.857014,15800,1.0,1.0,0.0,1.0
+JPR0396,Maple Villa,PG,Co-ed,26.926078,75.731417,"₹5,000/month",0.0,0.0,1.0,0.0
+JPR0397,Green Valley Point,Hostel,Girls,26.868803,75.873617,INR 13700/month,1.0,1.0,1.0,1.0
+JPR0398,Silver Oak Retreat,Hostel,Boys,26.889105,75.731335,INR 8500/month,1.0,0.0,,0.0
+JPR0399,Ivory Retreat,Hostel,Boys,26.907901,75.745386,7300 per month,1.0,0.0,1.0,0.0
+JPR0400,Blue Orchid Manor,PG,Boys,26.937218,75.735771,"₹18,000/month",1.0,1.0,1.0,1.0
+JPR0401,Cozy Address,PG,Co-ed,26.792972,75.839683,Rs. 4800,1.0,0.0,0.0,0.0
+JPR0402,Urban House,PG,Boys,26.910743,75.782345,18000 per month,1.0,0.0,1.0,1.0
+JPR0403,Comfort Residency,PG,Co-ed,26.911009,75.736202,INR 5400/month,1.0,0.0,1.0,0.0
+JPR0404,Highland Manor,PG,Girls,26.944503,75.808012,"₹10,100/month",1.0,0.0,0.0,0.0
+JPR0405,Prime Heights,PG,Girls,26.920304,75.764987,8200,0.0,0.0,1.0,1.0
+JPR0406,Golden Nest House,Hostel,Girls,26.867882,75.701269,Rs. 5600,0.0,0.0,1.0,0.0
+JPR0407,Comfort Court,PG,Girls,26.912822,75.721694,INR 4300/month,1.0,0.0,0.0,
+JPR0408,Golden Nest Residency,Hostel,Girls,26.907399,75.727519,7500 per month,0.0,,0.0,0.0
+JPR0409,Zenith Stay,Independent Flat,Co-ed,26.924999,75.883979,"₹9,400/month",1.0,1.0,0.0,0.0
+JPR0410,Green Valley Retreat,PG,Girls,26.837343,75.816991,Rs. 5800,0.0,1.0,1.0,0.0
+JPR0411,Royal Manor,PG,Girls,26.81952,75.849203,"₹12,600/month",1.0,0.0,1.0,1.0
+JPR0412,Sunrise Manor,PG,Girls,26.95394,75.798791,4500,0.0,0.0,0.0,1.0
+JPR0413,Blue Orchid Address,Hostel,Boys,26.935247,75.794611,5400 per month,0.0,0.0,0.0,0.0
+JPR0414,Cozy Heights,PG,Girls,26.860845,75.826101,,1.0,0.0,1.0,0.0
+JPR0415,Blue Orchid Point,PG,Co-ed,26.837832,75.874943,INR 5900/month,0.0,0.0,0.0,0.0
+JPR0416,Serene Stay,Hostel,Boys,26.850074,75.76974,14900 per month,0.0,1.0,1.0,1.0
+JPR0417,Crimson House,PG,Boys,26.869269,75.820014,INR 12400/month,1.0,1.0,1.0,1.0
+JPR0418,Sunshine Heights,Hostel,Boys,26.841531,75.822085,"₹8,300/month",1.0,0.0,0.0,0.0
+JPR0419,Comfort Point,Hostel,Girls,26.85077,75.818898,8300 per month,0.0,0.0,1.0,0.0
+JPR0420,Golden Nest Heights,Hostel,Boys,26.853572,75.713647,INR 14200/month,1.0,1.0,1.0,1.0
+JPR0421,Amber Enclave,PG,Girls,26.905749,75.742353,6200,0.0,0.0,0.0,1.0
+JPR0422,Urban Villa,Independent Flat,Boys,26.831429,75.80416,5300,0.0,0.0,0.0,0.0
+JPR0423,Comfort Nest,Hostel,Boys,26.830079,75.840524,"₹6,400/month",1.0,1.0,0.0,0.0
+JPR0424,Green Valley Retreat,PG,Girls,26.831256,75.848546,8100 per month,1.0,0.0,0.0,0.0
+JPR0425,Amber Villa,PG,Boys,26.826868,75.895892,Rs. 5800,0.0,0.0,0.0,0.0
+JPR0426,Ivory Court,PG,Co-ed,26.860528,75.894355,7300 per month,1.0,0.0,0.0,0.0
+JPR0427,Green Valley Heights,Hostel,Boys,26.814175,75.842265,17000,1.0,1.0,1.0,1.0
+JPR0428,Elite Palace,Hostel,Girls,26.943154,75.870972,INR 16200/month,1.0,0.0,0.0,1.0
+JPR0429,Sunshine Enclave,Hostel,Boys,26.82499,75.809326,Rs. 11300,1.0,1.0,1.0,0.0
+JPR0430,Sunshine Villa,Independent Flat,Boys,26.849349,75.817465,"₹5,600/month",0.0,0.0,0.0,1.0
+JPR0431,Ivory Manor,PG,Co-ed,26.82117,75.860943,Rs. 19300,1.0,1.0,1.0,1.0
+JPR0432,Crimson Homes,PG,Co-ed,26.800617,75.874065,"₹10,800/month",0.0,0.0,1.0,1.0
+JPR0433,Maple Enclave,Independent Flat,Boys,26.789281,75.740409,Rs. 5100,0.0,0.0,0.0,0.0
+JPR0434,Elite Homes,Hostel,Girls,26.938499,75.769099,"₹4,800/month",0.0,0.0,0.0,0.0
+JPR0435,Urban Villa,PG,Girls,26.951757,75.713463,"₹17,800/month",1.0,1.0,1.0,1.0
+JPR0436,Maple Enclave,Hostel,Boys,26.830392,75.802567,Rs. 11200,0.0,0.0,0.0,0.0
+JPR0437,Green Valley Enclave,Independent Flat,Boys,26.927129,75.769356,Rs. 12000,1.0,1.0,1.0,
+JPR0438,Crimson Court,Hostel,Co-ed,26.829554,75.82348,"₹19,300/month",1.0,1.0,1.0,1.0
+JPR0439,Zenith Villa,Hostel,Co-ed,26.839801,75.815954,10600,1.0,1.0,0.0,0.0
+JPR0440,Crimson Point,Hostel,Co-ed,26.843769,75.813288,Rs. 11200,1.0,1.0,1.0,0.0
+JPR0441,Copper Leaf Enclave,PG,Co-ed,26.915483,75.735958,10800 per month,1.0,1.0,1.0,0.0
+JPR0442,Cozy Point,Hostel,Girls,26.870896,75.892481,INR 4400/month,1.0,0.0,1.0,0.0
+JPR0443,Prime House,PG,Boys,26.810968,75.862632,"₹8,400/month",1.0,0.0,1.0,0.0
+JPR0444,Golden Nest Enclave,Independent Flat,Boys,26.897544,75.743411,"₹11,200/month",0.0,0.0,0.0,1.0
+JPR0445,Crimson Manor,PG,Boys,26.910707,75.734617,INR 11300/month,0.0,0.0,1.0,0.0
+JPR0446,Prime Retreat,Hostel,Girls,26.797528,75.816309,13400,1.0,1.0,1.0,1.0
+JPR0447,Zenith Retreat,PG,Co-ed,26.893044,75.713445,INR 9200/month,1.0,1.0,1.0,1.0
+JPR0448,Prime Address,PG,Co-ed,26.816074,75.847832,Rs. 9800,1.0,0.0,1.0,1.0
+JPR0449,Ivory Court,PG,Co-ed,26.925254,75.742359,INR 8900/month,1.0,0.0,1.0,1.0
+JPR0450,Ivory Nest,Independent Flat,Co-ed,27.023298,75.784088,"₹7,900/month",1.0,0.0,1.0,1.0
+JPR0451,Prime House,Independent Flat,Co-ed,26.868806,75.809931,INR 11700/month,1.0,1.0,0.0,0.0
+JPR0452,Comfort Retreat,PG,Boys,26.916157,75.742182,8400 per month,0.0,,1.0,0.0
+JPR0453,Prime Retreat,Independent Flat,Co-ed,26.814842,75.852485,,0.0,1.0,0.0,1.0
+JPR0454,Golden Nest Nest,Hostel,Girls,26.77223,75.832275,INR 5500/month,1.0,0.0,0.0,0.0
+JPR0455,Serene House,Hostel,Boys,26.814354,75.849304,"₹7,800/month",1.0,0.0,0.0,0.0
+JPR0456,Highland Enclave,PG,Co-ed,26.865141,75.719339,Rs. 9100,0.0,0.0,1.0,0.0
+JPR0457,Urban Nest,Independent Flat,Co-ed,26.904854,75.759432,"₹11,800/month",1.0,1.0,1.0,0.0
+JPR0458,Sunshine Court,Hostel,Boys,26.890593,75.732624,17100,1.0,1.0,1.0,1.0
+JPR0459,Prime Villa,Independent Flat,Boys,26.82432,75.859658,10100 per month,1.0,0.0,1.0,0.0
+JPR0460,Urban Residency,Hostel,Girls,26.769192,75.866447,11500,0.0,0.0,1.0,0.0
+JPR0461,Sunshine Point,Hostel,Girls,26.909013,75.740838,11900 per month,1.0,0.0,0.0,1.0
+JPR0462,Green Valley Enclave,Hostel,Co-ed,26.821437,75.837477,INR 9300/month,1.0,1.0,0.0,0.0
+JPR0463,Elite House,PG,Boys,26.845805,75.779855,Rs. 4100,1.0,0.0,0.0,0.0
+JPR0464,Crimson Enclave,PG,Boys,26.815584,75.849541,INR 6600/month,1.0,0.0,1.0,0.0
+JPR0465,Highland Villa,PG,Boys,26.855896,75.684222,6200 per month,0.0,0.0,0.0,0.0
+JPR0466,Highland Point,PG,Boys,26.842638,75.805422,10000 per month,1.0,1.0,1.0,1.0
+JPR0467,Sunshine Villa,Hostel,Boys,26.83896,75.812181,5700 per month,1.0,0.0,1.0,0.0
+JPR0468,Maple Nest,Hostel,Co-ed,26.797344,75.682667,"₹4,100/month",,1.0,1.0,0.0
+JPR0469,Ivory Stay,Independent Flat,Boys,26.918445,75.735747,Rs. 6300,1.0,0.0,1.0,0.0
+JPR0470,Sunrise Villa,PG,Girls,26.926338,75.891107,INR 17200/month,1.0,0.0,1.0,1.0
+JPR0471,Crimson Residency,Hostel,Boys,26.853828,75.823745,INR 5900/month,0.0,0.0,0.0,0.0
+JPR0472,Serene Villa,PG,Boys,26.870551,75.779963,8100,0.0,0.0,1.0,0.0
+JPR0473,Sunrise House,PG,Co-ed,26.849989,75.876534,6500 per month,0.0,0.0,0.0,0.0
+JPR0474,Urban Address,PG,Girls,26.857413,75.713011,9000 per month,0.0,1.0,1.0,0.0
+JPR0475,Urban Enclave,Hostel,Co-ed,26.911598,75.726916,7600 per month,,1.0,0.0,0.0
+JPR0476,Blue Orchid Villa,PG,Girls,26.854724,75.762695,INR 4500/month,0.0,0.0,0.0,1.0
+JPR0477,Zenith Villa,Hostel,Boys,26.831266,75.816192,8600,1.0,0.0,1.0,1.0
+JPR0478,Crimson Point,PG,Girls,26.842763,75.825066,"₹4,600/month",0.0,0.0,1.0,0.0
+JPR0479,Copper Leaf Stay,Independent Flat,Boys,26.960174,75.853119,Rs. 6000,0.0,0.0,1.0,0.0
+JPR0480,Ivory Residency,Hostel,Co-ed,26.838965,75.804148,"₹6,800/month",0.0,0.0,0.0,1.0
+JPR0481,Copper Leaf Nest,Independent Flat,Boys,26.81542,75.863918,INR 4900/month,1.0,0.0,0.0,0.0
+JPR0482,Green Valley Manor,Independent Flat,Girls,26.882397,75.824093,6000 per month,1.0,1.0,1.0,1.0
+JPR0483,Serene Manor,Independent Flat,Boys,26.765063,75.863436,Rs. 4200,0.0,0.0,0.0,0.0
+JPR0484,Comfort Manor,Independent Flat,Girls,26.899986,75.715233,INR 17800/month,1.0,1.0,1.0,0.0
+JPR0485,Royal Address,Hostel,Co-ed,26.879116,75.693685,INR 9300/month,0.0,0.0,0.0,1.0
+JPR0486,Green Valley Stay,PG,Girls,26.885065,75.694663,INR 8800/month,1.0,1.0,1.0,0.0
+JPR0487,Highland House,PG,Girls,26.825459,75.864329,Rs. 7300,1.0,0.0,0.0,0.0
+JPR0488,Copper Leaf House,PG,Co-ed,26.81217,75.81041,Rs. 18800,1.0,1.0,1.0,1.0
+JPR0489,Urban Nest,Hostel,Girls,26.89965,75.689168,6800,0.0,0.0,0.0,0.0
+JPR0490,Elite Stay,Hostel,Boys,26.768654,75.837591,5800,0.0,0.0,0.0,0.0
+JPR0491,Serene Enclave,Independent Flat,Boys,26.817319,75.850217,"₹9,900/month",1.0,1.0,1.0,1.0
+JPR0492,Amber Manor,Independent Flat,Girls,26.816064,75.849317,Rs. 7700,1.0,1.0,0.0,1.0
+JPR0493,Amber Heights,PG,Girls,26.894099,75.76372,,1.0,0.0,0.0,0.0
+JPR0494,Blue Orchid Nest,Hostel,Boys,26.837556,75.820193,Rs. 9200,0.0,0.0,1.0,0.0
+JPR0495,Silver Oak Nest,Independent Flat,Boys,26.824462,75.781069,15600,1.0,1.0,1.0,1.0
+JPR0496,Maple Nest,PG,Co-ed,26.914417,75.741396,,1.0,0.0,1.0,0.0
+JPR0497,Royal Address,Hostel,Boys,26.814554,75.84719,9400 per month,1.0,1.0,1.0,0.0
+JPR0498,Ivory Manor,PG,Girls,26.909227,75.773147,14200,1.0,0.0,1.0,1.0
+JPR0499,Urban Heights,Hostel,Boys,26.754608,75.698078,Rs. 7200,1.0,0.0,1.0,0.0
+JPR0500,Urban Homes,PG,Co-ed,26.962929,75.744998,4800,1.0,1.0,0.0,0.0
