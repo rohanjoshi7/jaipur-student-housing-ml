@@ -1,26 +1,3 @@
-"""
-================================================================================
-STEP 1 : SYNTHETIC DATA GENERATION
-================================================================================
-Generates a realistic mock dataset of 500 student accommodations in Jaipur.
-
-WHY BUILD OUR OWN DATASET?
-Genuine scraped listing data (99acres, NoBroker, local PG aggregators) is
-messy, inconsistent, and rarely free to redistribute. Building our own
-*realistic* synthetic dataset gives us:
-  1. A known ground truth we can sanity-check our clusters against later.
-  2. Full control to inject real-world messiness on purpose (inconsistent
-     rent formatting, missing values) — because handling that messiness is
-     half the skill being demonstrated in this project.
-
-NOTE ON DESIGN: We deliberately do NOT store a "distance to hub" column
-here. Real listings never come with that pre-calculated — you only ever get
-an address (lat/long). We use hub locations internally just to scatter
-accommodations realistically around the city, but the actual distance
-FEATURE is engineered later in preprocessing.py using the Haversine formula.
-That's a genuine feature-engineering step, not a copy-paste column.
-"""
-
 import numpy as np
 import pandas as pd
 
