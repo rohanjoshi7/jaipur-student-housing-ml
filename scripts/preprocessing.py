@@ -1,16 +1,3 @@
-"""
-================================================================================
-STEP 2 : DATA CLEANING & FEATURE ENGINEERING
-================================================================================
-Takes the raw, messy jaipur_student_housing_raw.csv and produces a clean,
-model-ready dataframe with:
-  - monthly_rent_numeric      (cleaned from messy strings)
-  - distance_to_nearest_hub_km (engineered via the Haversine formula)
-  - total_amenities            (sum of amenity flags)
-  - vfm_index                  (our custom "Value-for-Money" signal)
-  - *_scaled columns           (StandardScaler output, ready for K-Means)
-"""
-
 import re
 import numpy as np
 import pandas as pd
